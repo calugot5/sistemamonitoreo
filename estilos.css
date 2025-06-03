@@ -1,0 +1,100 @@
+/* estilos.css */
+:root {
+  --color-primario: #7f8ff4;
+  --color-secundario: #ff7979;
+  --color-fondo: #f5f6fa;
+  --color-texto: #2f3640;
+}
+
+body {
+  background-color: var(--color-fondo);
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--color-texto);
+}
+
+header {
+  background-color: var(--color-primario);
+  color: white;
+  padding: 1.2rem;
+  text-align: center;
+  border-bottom: 3px solid var(--color-secundario);
+}
+
+nav {
+  background-color: white;
+  border-bottom: 1px solid #dcdde1;
+}
+
+nav a.nav-link {
+  color: var(--color-primario) !important;
+  font-weight: 500;
+}
+
+nav a.nav-link:hover {
+  color: var(--color-secundario) !important;
+}
+
+main {
+  background: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  background-color: var(--color-primario);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.btn-custom {
+  background-color: var(--color-secundario);
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #ff6b6b;
+}
+
+.hero {
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  color: #fff;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.mapa, .alertas, .resumen {
+  padding: 2rem 0;
+}
+
+.alertas ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.alertas li {
+  background: #ffefef;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 5px solid #f44336;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background: #f0f8ff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 600px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
